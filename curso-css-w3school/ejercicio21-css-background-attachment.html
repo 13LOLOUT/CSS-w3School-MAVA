@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 21 - CSS Background Attachment</title>
+
+    <link rel="stylesheet" href="ejercicio21-css-background-attachment.css">
+</head>
+<body>
+
+    <h1>CSS Background Attachment</h1>
+    
+    <p>Desplázate hacia abajo para ver la diferencia entre scroll y fixed.</p>
+
+    <!-- Contenido LARGO para hacer scroll -->
+    <div style="height: 1000px; background: linear-gradient(to right, #f0f0f0, #e0e0e0); margin: 20px 0; padding: 20px;">
+        <h2>Sección con scroll normal...</h2>
+        <p>Este contenido hace que la página sea muy larga para demostrar el scroll.</p>
+    </div>
+
+    <!-- FIXED: imagen NO se mueve -->
+    <h2>1. background-attachment: fixed</h2>
+    <div class="fixed-bg">
+        <p>Esta imagen está FIJA. No se mueve cuando haces scroll.</p>
+        <p>Mira cómo la imagen del fondo se queda en el mismo lugar.</p>
+    </div>
+
+    <div style="height: 800px; background: linear-gradient(to bottom, #ddd, #ccc); margin: 20px 0; padding: 20px;">
+        <h3>Más contenido para scroll...</h3>
+    </div>
+
+    <!-- SCROLL: imagen SÍ se mueve -->
+    <h2>2. background-attachment: scroll (default)</h2>
+    <div class="scroll-bg">
+        <p>Esta imagen SÍ se mueve con el scroll (comportamiento normal).</p>
+        <p>La imagen del fondo se desplaza junto con el contenido.</p>
+    </div>
+
+    <div style="height: 600px; background: linear-gradient(to right, #ccc, #bbb); margin: 20px 0; padding: 20px;">
+        <p>Fin de la página. ¡Scroll arriba para comparar!</p>
+    </div>
+
+    <!-- Tabla resumen -->
+    <table>
+        <tr>
+            <th>Valor</th>
+            <th>Comportamiento</th>
+        </tr>
+        <tr>
+            <td>scroll</td>
+            <td>Imagen se mueve con la página (default)</td>
+        </tr>
+        <tr>
+            <td>fixed</td>
+            <td>Imagen fija en viewport (no se mueve)</td>
+        </tr>
+    </table>
+
+</body>
+</html>

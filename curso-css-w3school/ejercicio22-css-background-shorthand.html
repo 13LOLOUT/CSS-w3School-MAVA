@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 22 - CSS Background Shorthand</title>
+
+    <link rel="stylesheet" href="ejercicio22-css-background-shorthand.css">
+</head>
+<body>
+
+    <h1>CSS Background Shorthand</h1>
+
+    <!-- VERSIÓN LARGA vs SHORTHAND -->
+    <h2>1. Propiedades individuales (LARGO)</h2>
+    <div class="largo">
+        6 líneas de CSS para lo mismo que 1 línea shorthand.
+    </div>
+
+    <h2>2. Shorthand (CORTO)</h2>
+    <div class="shorthand">
+        background: #ffffff url("tree") no-repeat right top;
+    </div>
+
+    <!-- Más ejemplos shorthand -->
+    <h2>3. Otros ejemplos shorthand</h2>
+    <div class="shorthand2">Shorthand con fixed</div>
+    <div class="shorthand3">Shorthand con repeat-x</div>
+
+    <!-- Tabla comparación -->
+    <table>
+        <tr>
+            <th>Propiedades largas</th>
+            <th>Shorthand</th>
+        </tr>
+        <tr>
+            <td>6 líneas CSS</td>
+            <td>1 línea</td>
+        </tr>
+        <tr>
+            <td>background-color<br>background-image<br>etc...</td>
+            <td>background: todo-en-uno</td>
+        </tr>
+    </table>
+
+    <h3>Propiedades que incluye:</h3>
+    <ul>
+        <li>background-color</li>
+        <li>background-image</li>
+        <li>background-repeat</li>
+        <li>background-position</li>
+        <li>background-attachment</li>
+        <li>background-size, origin, clip</li>
+    </ul>
+
+</body>
+</html>

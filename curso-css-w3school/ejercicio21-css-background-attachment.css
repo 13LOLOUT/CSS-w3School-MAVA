@@ -1,0 +1,55 @@
+
+/* FIXED: imagen fija */
+.fixed-bg {
+    background-image: url("https://via.placeholder.com/300x400/3498DB/ECF0F1?text=tree");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;  /* ¡IMAGEN FIJA! */
+    height: 400px;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    margin: 20px 0;
+}
+
+/* SCROLL: imagen normal (default) */
+.scroll-bg {
+    background-image: url("https://via.placeholder.com/300x400/27AE60/ECF0F1?text=tree");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;  /* Imagen se mueve (default) */
+    height: 400px;
+    padding: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    margin: 20px 0;
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+th {
+    background-color: #E74C3C;
+    color: white;
+}
