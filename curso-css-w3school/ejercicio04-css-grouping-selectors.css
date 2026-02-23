@@ -1,0 +1,25 @@
+
+* {
+    text-align: center;
+    color: blue;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: red;           
+    font-weight: bold;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 04 - CSS Grouping Selectors</title>
+
+
+    <link rel="stylesheet" href="ejercicio04-css-grouping-selectors.css">
+</head>
+<body>
+
+    <!-- Selectores agrupados: h1, h2, p -->
+    <h1>Selector de agrupación (h1, h2, p)</h1>
+    <h2>Este h2 también se ve igual por el grouping selector</h2>
+    <p>Este párrafo también toma los mismos estilos que h1 y h2</p>
+
+    <!-- Selector universal: * -->
+    <div>Este div se ve centrado y azul por el * (universal)</div>
+    <span>Este span también por el universal selector</span>
+
+    <!-- Tabla resumen de selectores simples -->
+    <h3>Tabla de selectores simples CSS</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Ejemplo</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>#id</td>
+                <td>#firstname</td>
+                <td>Selecciona el elemento con id="firstname"</td>
+            </tr>
+            <tr>
+                <td>.class</td>
+                <td>.intro</td>
+                <td>Selecciona todos los elementos con class="intro"</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>*</td>
+                <td>Selecciona TODOS los elementos</td>
+            </tr>
+            <tr>
+                <td>element</td>
+                <td>p</td>
+                <td>Selecciona todos los &lt;p&gt; elements</td>
+            </tr>
+            <tr>
+                <td>element,element</td>
+                <td>div, p</td>
+                <td>Selecciona todos &lt;div&gt; y todos &lt;p&gt;</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
