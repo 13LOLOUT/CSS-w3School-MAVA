@@ -1,0 +1,110 @@
+/* Background colors */
+.bg-dodgerblue {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg-tomato {
+    background-color: Tomato;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Text colors */
+.text-tomato {
+    color: Tomato;
+}
+
+.text-dodgerblue {
+    color: DodgerBlue;
+}
+
+.text-mediumseagreen {
+    color: MediumSeaGreen;
+}
+
+/* Border colors */
+.border-tomato {
+    border: 2px solid Tomato;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.border-dodgerblue {
+    border: 2px solid DodgerBlue;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.border-violet {
+    border: 2px solid Violet;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Diferentes formatos - todos Tomato */
+.color-rgb {
+    background-color: rgb(255, 99, 71);
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.color-hex {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.color-hsl {
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Transparentes */
+.color-rgba {
+    background-color: rgba(255, 99, 71, 0.5);
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 99, 71, 0.8);
+}
+
+.color-hsla {
+    background-color: hsla(9, 100%, 64%, 0.5);
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid hsla(9, 100%, 64%, 0.8);
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: SlateBlue;
+    color: white;
+}
