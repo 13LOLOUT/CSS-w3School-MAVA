@@ -1,0 +1,35 @@
+
+/* Color Name: Tomato */
+h1 {
+    color: Tomato;
+}
+
+/* Hex Value: #1e90ff */
+h2 {
+    color: #1e90ff;
+}
+
+/* RGB Value: rgb(60, 179, 113) */
+p {
+    color: rgb(60, 179, 113);
+}
+
+/* Extras para practicar */
+.extra {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #f0f0f0;
+}
