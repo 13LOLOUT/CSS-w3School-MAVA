@@ -1,0 +1,51 @@
+/* HSL básicos */
+.hsl-rojo { background-color: hsl(0, 100%, 50%); color: white; padding: 15px; margin: 10px 0; text-align: center; }
+.hsl-azul { background-color: hsl(240, 100%, 50%); color: white; padding: 15px; margin: 10px 0; text-align: center; }
+.hsl-verde { background-color: hsl(147, 50%, 47%); color: white; padding: 15px; margin: 10px 0; text-align: center; }
+.hsl-violeta { background-color: hsl(300, 76%, 72%); color: #333; padding: 15px; margin: 10px 0; text-align: center; }
+.hsl-naranja { background-color: hsl(39, 100%, 50%); color: white; padding: 15px; margin: 10px 0; text-align: center; }
+.hsl-periwinkle { background-color: hsl(248, 53%, 58%); color: white; padding: 15px; margin: 10px 0; text-align: center; }
+
+/* Saturation */
+.sat-100 { background-color: hsl(0, 100%, 50%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.sat-80  { background-color: hsl(0, 80%, 50%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.sat-60  { background-color: hsl(0, 60%, 50%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.sat-40  { background-color: hsl(0, 40%, 50%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+.sat-20  { background-color: hsl(0, 20%, 50%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+.sat-0   { background-color: hsl(0, 0%, 50%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+
+/* Lightness */
+.light-0   { background-color: hsl(0, 100%, 0%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.light-25  { background-color: hsl(0, 100%, 25%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.light-50  { background-color: hsl(0, 100%, 50%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.light-75  { background-color: hsl(0, 100%, 75%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+.light-90  { background-color: hsl(0, 100%, 90%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+.light-100 { background-color: hsl(0, 100%, 100%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+
+/* Grises HSL */
+.gris-hsl1 { background-color: hsl(0, 0%, 0%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.gris-hsl2 { background-color: hsl(0, 0%, 24%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.gris-hsl3 { background-color: hsl(0, 0%, 47%); color: white; padding: 15px; margin: 5px 0; text-align: center; }
+.gris-hsl4 { background-color: hsl(0, 0%, 71%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+.gris-hsl5 { background-color: hsl(0, 0%, 94%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+.gris-hsl6 { background-color: hsl(0, 0%, 100%); color: #333; padding: 15px; margin: 5px 0; text-align: center; }
+
+/* HSLA Tomato */
+.hsla-0  { background-color: hsla(9, 100%, 64%, 0); padding: 15px; margin: 10px 0; text-align: center; border: 1px solid hsla(9, 100%, 64%, 0.3); }
+.hsla-02 { background-color: hsla(9, 100%, 64%, 0.2); padding: 15px; margin: 10px 0; text-align: center; }
+.hsla-04 { background-color: hsla(9, 100%, 64%, 0.4); padding: 15px; margin: 10px 0; text-align: center; }
+.hsla-06 { background-color: hsla(9, 100%, 64%, 0.6); padding: 15px; margin: 10px 0; text-align: center; }
+.hsla-08 { background-color: hsla(9, 100%, 64%, 0.8); padding: 15px; margin: 10px 0; text-align: center; color: white; }
+.hsla-1  { background-color: hsla(9, 100%, 64%, 1); padding: 15px; margin: 10px 0; text-align: center; color: white; }
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
