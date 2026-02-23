@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 07 - Internal CSS</title>
+
+    <style>
+
+        
+        body {
+            background-color: linen;  
+            font-family: "Times New Roman", serif;
+            margin: 20px;
+        }
+        
+        h1 {
+            color: maroon;            
+            margin-left: 40px;
+        }
+        
+        p {
+            color: #8B4513;           
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .resumen {
+            background-color: #FFF8DC; 
+            padding: 20px;
+            border-left: 5px solid maroon;
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #D2B48C;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #DEB887; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a heading</h1>
+    
+    <p>This is a paragraph.</p>
+
+    <p>Otro párrafo para ver más del estilo body y p.</p>
+
+    <div class="resumen">
+        <h2>Ventajas del Internal CSS:</h2>
+        <ul>
+            <li>Estilos únicos para esta página solamente</li>
+            <li>No necesita archivo externo</li>
+            <li>Todo en un solo HTML</li>
+        </ul>
+    </div>
+
+    <table>
+        <tr>
+            <th>Método</th>
+            <th>Código</th>
+            <th>Ubicación</th>
+        </tr>
+        <tr>
+            <td>Internal CSS</td>
+            <td>&lt;style&gt;</td>
+            <td>En &lt;head&gt;</td>
+        </tr>
+    </table>
+
+</body>
+</html>
