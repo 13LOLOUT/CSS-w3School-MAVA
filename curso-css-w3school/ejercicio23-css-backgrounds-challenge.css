@@ -1,0 +1,42 @@
+
+*/
+body {
+    background-color: lightblue;
+    background-image: url('https://via.placeholder.com/200x250/27AE60/ECF0F1?text=tree');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+/* Estilos extras para mejor presentación */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px 20px 20px 20px;  /* padding-top extra para no tapar imagen */
+    min-height: 100vh;
+}
+
+h1 {
+    color: navy;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #3498DB;
+    color: white;
+}
