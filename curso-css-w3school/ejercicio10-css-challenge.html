@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10 - CSS How To Code Challenge</title>
+
+    <link rel="stylesheet" href="ejercicio10-css-challenge.css">
+
+    <style>
+        h1 {
+            color: navy;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Three Ways to Add CSS</h1>
+
+    <p style="color: red;">This paragraph uses inline CSS.</p>
+
+    <h2 style="color: green;">Inline CSS en h2 (verde)</h2>
+    
+    <p>Este párrafo usa external CSS del archivo.</p>
+    
+    <p style="background-color: yellow; padding: 10px; border: 1px solid orange;">
+        Párrafo con inline CSS más complejo.
+    </p>
+
+    <table>
+        <tr>
+            <th>Tipo</th>
+            <th>Código</th>
+            <th>Ejemplo en esta página</th>
+        </tr>
+        <tr>
+            <td>External</td>
+            <td>&lt;link rel="stylesheet" href="...">&lt;/td>
+            <td>Párrafos normales</td>
+        </tr>
+        <tr>
+            <td>Internal</td>
+            <td>&lt;style> en head</td>
+            <td>h1 navy</td>
+        </tr>
+        <tr>
+            <td>Inline</td>
+            <td>style="color: red;"</td>
+            <td>Primer párrafo rojo</td>
+        </tr>
+    </table>
+
+</body>
+</html>

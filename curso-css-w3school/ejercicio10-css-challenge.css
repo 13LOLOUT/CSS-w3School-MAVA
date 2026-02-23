@@ -1,0 +1,22 @@
+p {
+    color: darkslategray;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2196F3;
+    color: white;
+}
