@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 06 - Cómo agregar CSS</title>
+
+    <link rel="stylesheet" href="ejercicio06-how-to-add-css.css">
+
+    <style>
+        .internal {
+            background-color: lightgreen;
+            padding: 15px;
+            border: 2px solid #4CAF50;
+        }
+        
+        h3.internal {
+            color: darkgreen;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>External CSS (desde ejercicio06-how-to-add-css.css)</h1>
+    <p>Este párrafo tiene estilos del CSS externo: fondo lightblue, h1 navy con margen.</p>
+
+    <h3 class="internal">Internal CSS (definido en &lt;style&gt; del head)</h3>
+    <p class="internal">
+        Este párrafo usa internal CSS: fondo lightgreen, borde verde.
+        Es útil para estilos que solo van en esta página específica.
+    </p>
+
+    <h2 style="color: purple; text-align: right; font-style: italic;">
+        Inline CSS (style="" directo en el HTML)
+    </h2>
+    <p style="background-color: pink; padding: 10px; font-weight: bold;">
+        Este párrafo tiene inline CSS. Es rápido para probar algo específico,
+        pero no se recomienda mucho porque es difícil de mantener.
+    </p>
+
+    <hr>
+
+    <table>
+        <tr>
+            <th>Método</th>
+            <th>Ejemplo</th>
+            <th>Ventaja</th>
+        </tr>
+        <tr>
+            <td>External</td>
+            <td>&lt;link rel="stylesheet" href="...">&lt;/td>
+            <td>Cambia toda la web con 1 archivo</td>
+        </tr>
+        <tr>
+            <td>Internal</td>
+            <td>&lt;style> en head</td>
+            <td>Solo esta página</td>
+        </tr>
+        <tr>
+            <td>Inline</td>
+            <td>style="" en elemento</td>
+            <td>Rápido para 1 elemento</td>
+        </tr>
+    </table>
+
+</body>
+</html>
