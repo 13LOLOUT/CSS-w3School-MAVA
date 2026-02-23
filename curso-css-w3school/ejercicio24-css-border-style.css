@@ -1,0 +1,41 @@
+/* Bordes generales */
+p {
+    border: 3px solid black;  /* ancho + estilo + color base */
+    margin: 20px 0;
+    padding: 15px;
+}
+
+/* Ejemplos específicos del curso */
+.dotted { border-style: dotted; }
+.dashed { border-style: dashed; }
+.solid { border-style: solid; }
+.double { border-style: double; }
+.groove { border-style: groove; }
+.ridge { border-style: ridge; }
+.inset { border-style: inset; }
+.outset { border-style: outset; }
+.none { border-style: none; }
+.hidden { border-style: hidden; }
+.mix { border-style: dotted dashed solid double; }  /* 4 valores: top right bottom left */
+
+/* Bordes especiales mencionados */
+.bottom-red {
+    border-bottom: 5px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    border: 5px solid #333;
+    padding: 20px;
+    text-align: center;
+}
