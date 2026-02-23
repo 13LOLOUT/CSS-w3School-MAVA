@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 09 - Multiple Style Sheets y Cascading</title>
+
+    <h2>Prueba 1: Internal ANTES de External</h2>
+    <style>
+        h1 {
+            color: orange;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="ejercicio09-multiple-stylesheets.css">
+    
+    <h1>Este h1 es navy (external gana porque se lee último)</h1>
+
+    <h2>Prueba 2: Internal DESPUÉS de External</h2>
+    <link rel="stylesheet" type="text/css" href="ejercicio09-multiple-stylesheets.css">
+    <style>
+        h1 {
+            color: orange;
+        }
+    </style>
+    
+    <h1>Este h1 es orange (internal gana porque se lee último)</h1>
+
+    <h2>Prueba 3: Cascading Order (inline > external/internal > default)</h2>
+    
+    <h1 style="color: purple;">Inline CSS gana (purple), aunque external dice green</h1>
+
+    <table style="border-collapse: collapse; width: 100%; margin: 20px 0;">
+        <tr>
+            <th>Prioridad</th>
+            <th>Tipo</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>1 (mayor)</td>
+            <td>Inline</td>
+            <td>style="color: purple;"</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>External/Internal</td>
+            <td>&lt;link&gt; o &lt;style&gt;</td>
+        </tr>
+        <tr>
+            <td>3 (menor)</td>
+            <td>Browser default</td>
+            <td>Estilos por defecto del navegador</td>
+        </tr>
+    </table>
+
+</body>
+</html>
