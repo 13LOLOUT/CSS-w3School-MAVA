@@ -1,0 +1,19 @@
+
+p {
+    color: red;           
+    text-align: center;   
+}
+
+.ejemplo-detalle {
+    color: darkblue;
+    text-align: left;
+    font-size: 18px;      
+}
+
+.otro-ejemplo {
+    color: green;
+    text-align: justify;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 4px solid #999999;
+}
