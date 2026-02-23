@@ -1,0 +1,47 @@
+/* Base para todos */
+p {
+    border-width: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Propiedades individuales */
+.individual {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+/* Shorthand: 4 valores */
+.four {
+    border-style: dotted solid double dashed;  /* top right bottom left */
+}
+
+/* Shorthand: 3 valores */
+.three {
+    border-style: dotted solid double;         /* top, right/left, bottom */
+}
+
+/* Shorthand: 2 valores */
+.two {
+    border-style: dotted solid;                /* top/bottom, right/left */
+}
+
+/* Shorthand: 1 valor */
+.one {
+    border-style: dotted;                      /* todos los lados */
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
