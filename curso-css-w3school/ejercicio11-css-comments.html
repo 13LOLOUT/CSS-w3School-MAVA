@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11 - CSS Comments</title>
+
+    <!--
+        En este archivo practico comentarios CSS:
+        - /* comentario simple */
+        - /* comentario multilínea */
+        - comentario en medio de línea
+        - Combinación con comentarios HTML <!-- -->
+    -->
+
+    <link rel="stylesheet" href="ejercicio11-css-comments.css">
+</head>
+<body>
+
+    <h2 style="color: navy;">Mi Heading</h2>
+
+    <!-- html comment: Estos párrafos serán rojos por CSS -->
+    <p>Hello World!</p>
+    
+    <!-- html comment: Este párrafo tiene estilo especial -->
+    <p>This paragraph is styled with CSS.</p>
+    
+    <!-- html comment: Los comentarios no se muestran en el navegador -->
+    <p>HTML and CSS comments are not shown in the output.</p>
+
+    <!-- sección para probar comentarios CSS -->
+    <div style="background-color: #f0f8ff; padding: 20px; margin: 20px 0;">
+        <h3>Ejemplos de comentarios CSS:</h3>
+        
+        <p class="rojo">Párrafo con color rojo /* comentario en línea */</p>
+        
+        <p class="azul-comentado">
+            Párrafo con color /*rojo*/azul (comentario en medio de propiedad).
+        </p>
+        
+        <p class="multilinea">
+            Este párrafo usa comentarios multilínea en el CSS.
+        </p>
+    </div>
+
+    <!-- tabla resumen de comentarios -->
+    <table>
+        <tr>
+            <th>Tipo</th>
+            <th>Sintaxis</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>CSS comentario</td>
+            <td>/* texto */</td>
+            <td>/* Set color to red */</td>
+        </tr>
+        <tr>
+            <td>HTML comentario</td>
+            <td>&lt;!-- texto --&gt;</td>
+            <td>&lt;!-- hidden --&gt;</td>
+        </tr>
+    </table>
+
+</body>
+</html>

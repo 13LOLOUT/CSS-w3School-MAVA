@@ -1,0 +1,64 @@
+/*
+
+   los comentarios CSS:
+   - Explican el código
+   - Desactivan código temporalmente
+   - Los navegadores los ignoran
+   
+   /* Este es un comentario simple */
+   
+   /*
+      Este es un comentario
+      multilínea que ocupa
+      varias líneas
+   */
+*/
+
+/* Regla básica con comentario inline */
+p {
+    color: red;  /* Set text color to red */
+}
+
+/* Comentario en medio de línea */
+.azul-comentado {
+    color: /*rojo*/blue;
+}
+
+/* Comentario multilínea */
+/*
+   Esta regla usa comentarios multilínea arriba
+*/
+.multilinea {
+    color: green;
+    background-color: #e8f5e8;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.rojo {
+    color: red !important;  /* !important sobrescribe otros colores */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #FF9800;
+    color: white;
+}
