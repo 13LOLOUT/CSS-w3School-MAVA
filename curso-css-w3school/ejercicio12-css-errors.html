@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12 - CSS Errors (Errores comunes)</title>
+
+    <!--
+        En este archivo demuestro errores CSS comunes y cómo se ven cuando fallan.
+        Luego muestro las versiones corregidas.
+        
+        Los errores se "ignoran" silenciosamente por el navegador.
+    -->
+
+    <link rel="stylesheet" href="ejercicio12-css-errors.css">
+</head>
+<body>
+
+    <h1>CSS Errors - Errores comunes</h1>
+
+    <!-- Errores CSS: estos NO se aplican por errores de sintaxis -->
+    <h2 class="error1">Error 1: Falta punto y coma (;)</h2>
+    <p class="error1">
+        Esta clase tiene error: <code>color: red  background-color: yellow;</code>
+        Solo se aplica el segundo (amarillo).
+    </p>
+
+    <h2 class="error2">Error 2: Propiedad inválida</h2>
+    <p class="error2">
+        Error: <code>colr: blue;</code> (colr no existe, se ignora).
+        Solo aplica font-size.
+    </p>
+
+    <h2 class="error3">Error 3: Valor inválido</h2>
+    <p class="error3">
+        Error: <code>width: -100px;</code> (ancho negativo inválido).
+        Solo aplica color.
+    </p>
+
+    <h2 class="error4">Error 4: Llave sin cerrar</h2>
+    <p class="error4">
+        Error: llave } olvidada. ¡Toda la regla se ignora!
+    </p>
+
+    <h2 class="error5">Error 5: Doble :: o extra</h2>
+    <p class="error5">
+        Error: <code>color:: blue;</code> (doble dos puntos).
+        Se ignora la propiedad.
+    </p>
+
+    <!-- Versiones CORREGIDAS -->
+    <h2 style="color: green;"> Versiones corregidas funcionan bien</h2>
+    <h2 class="correcta1">Correcto 1: Con punto y coma</h2>
+    <p class="correcta1">Ahora color rojo Y fondo amarillo.</p>
+
+    <!-- Tabla resumen -->
+    <table>
+        <tr>
+            <th>Error</th>
+            <th>Ejemplo malo</th>
+            <th>Resultado</th>
+            <th>Solución</th>
+        </tr>
+        <tr>
+            <td>Falta ;</td>
+            <td>color: red background: yellow;</td>
+            <td>Segundo gana</td>
+            <td>color: red; background: yellow;</td>
+        </tr>
+        <tr>
+            <td>Propiedad inválida</td>
+            <td>colr: blue;</td>
+            <td>Ignorada</td>
+            <td>color: blue;</td>
+        </tr>
+    </table>
+
+    <h3>💡 Tips para evitar errores CSS:</h3>
+    <ul>
+        <li>Usa editor con resaltado de sintaxis (VS Code)</li>
+        <li>Valida CSS online</li>
+        <li>Escribe en secciones pequeñas y prueba</li>
+    </ul>
+
+</body>
+</html>
