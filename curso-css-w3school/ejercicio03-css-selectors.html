@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 03 - CSS Selectors</title>
+
+
+    <link rel="stylesheet" href="ejercicio03-css-selectors.css">
+</head>
+<body>
+
+    <h1>Ejercicio 03 - Selectores CSS básicos</h1>
+
+    <p>
+        Este es un párrafo normal. El selector por elemento <code>p</code>
+        aplica a todos los párrafos de la página.
+    </p>
+
+    <p id="para1">
+        Este párrafo tiene id="para1", así que se le aplican los estilos
+        del selector <code>#para1</code>.
+    </p>
+
+    <div class="center">
+        Este <code>&lt;div&gt;</code> usa la clase "center", que debería
+        centrar el texto y cambiarle el color.
+    </div>
+
+    <p class="center">
+        Este es un párrafo con la clase "center". Aquí se aplica el selector
+        <code>p.center</code>, que solo afecta a los &lt;p&gt; con esa clase.
+    </p>
+
+    <p class="center large">
+        Este párrafo usa dos clases: "center" y "large". Debería tomar
+        el estilo de ambas clases al mismo tiempo.
+    </p>
+
+    <span class="large">
+        Este span solo tiene la clase "large", para comparar la diferencia
+        con el párrafo que tiene las dos clases.
+    </span>
+
+</body>
+</html>
