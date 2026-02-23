@@ -1,0 +1,70 @@
+
+/* Imagen base para todos los ejemplos */
+.gradient-pattern {
+    background-image: url("https://via.placeholder.com/200x50/4A90E2/FFFFFF?text=gradient");
+    height: 150px;
+    margin: 20px 0;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* 1. Default repeat */
+.repeat-default {
+    background-repeat: repeat;  /* horizontal + vertical */
+}
+
+/* 2. Solo horizontal */
+.repeat-x {
+    background-repeat: repeat-x;
+}
+
+/* 3. Solo vertical */
+.repeat-y {
+    background-repeat: repeat-y;
+}
+
+/* 4. No repeat + position */
+.no-repeat-right {
+    background-image: url("https://via.placeholder.com/150x150/27AE60/FFFFFF?text=tree");
+    background-repeat: no-repeat;
+    background-position: right top;  /* esquina superior derecha */
+    height: 200px;
+}
+
+.no-repeat-center {
+    background-image: url("https://via.placeholder.com/150x150/8E44AD/FFFFFF?text=tree");
+    background-repeat: no-repeat;
+    background-position: center;     /* centro */
+    height: 200px;
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #3498DB;
+    color: white;
+}
