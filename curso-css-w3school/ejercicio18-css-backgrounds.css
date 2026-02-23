@@ -1,0 +1,56 @@
+/* Body background */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Diferentes elementos */
+.bg-green {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Opacity (afecta todo el elemento y hijos) */
+.opacity-1 { background-color: green; opacity: 1; padding: 20px; margin: 10px 0; }
+.opacity-06 { background-color: green; opacity: 0.6; padding: 20px; margin: 10px 0; }
+.opacity-03 { background-color: green; opacity: 0.3; padding: 20px; margin: 10px 0; }
+.opacity-01 { background-color: green; opacity: 0.1; padding: 20px; margin: 10px 0; }
+
+/* RGBA (solo fondo transparente, texto legible) */
+.rgba-1 { background-color: rgba(0, 128, 0, 1); color: white; padding: 20px; margin: 10px 0; }
+.rgba-06 { background-color: rgba(0, 128, 0, 0.6); color: white; padding: 20px; margin: 10px 0; }
+.rgba-03 { background-color: rgba(0, 128, 0, 0.3); color: black; padding: 20px; margin: 10px 0; }
+.rgba-01 { background-color: rgba(0, 128, 0, 0.1); color: black; padding: 20px; margin: 10px 0; }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}

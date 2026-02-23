@@ -1,0 +1,60 @@
+/*
+   Ejercicio 19 - CSS Background Image
+   
+   Nota: uso imágenes placeholder de placeholder.com porque no tengo archivos locales.
+   En tu máquina usa tus propias imágenes.
+*/
+
+/* Body con imagen que se repite */
+body {
+    background-image: url("https://via.placeholder.com/200x200/cccccc/999999?text=paper");
+    background-repeat: repeat;  /* por defecto */
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Mal ejemplo: imagen que tapa el texto */
+.mal-ejemplo {
+    background-image: url("https://via.placeholder.com/800x400/8B4513/D2B48C?text=desert");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);  /* sombra para intentar mejorar legibilidad */
+}
+
+.mal-ejemplo p {
+    margin: 0;
+}
+
+/* Buenos ejemplos: elementos específicos */
+.bg-paper {
+    background-image: url("https://via.placeholder.com/100x100/f0f0f0/cccccc?text=paper");
+    background-repeat: repeat;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.bg-dots {
+    background-image: url("https://via.placeholder.com/50x50/eeeeee/cccccc?text=dots");
+    background-repeat: repeat;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/* Estilos generales */
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    background-color: #f9f9f9;
+    padding: 20px;
+}

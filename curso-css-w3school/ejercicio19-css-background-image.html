@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 19 - CSS Background Image</title>
+
+    <link rel="stylesheet" href="ejercicio19-css-background-image.css">
+</head>
+<body>
+
+    <h1>CSS Background Image</h1>
+
+    <!-- Body con imagen de fondo que se repite -->
+    <p>
+        Este body tiene background-image que se repite por defecto.
+        La imagen paper.gif cubre toda la página.
+    </p>
+
+    <!-- Mal ejemplo: texto ilegible -->
+    <h2>Ejemplo MALO - Texto difícil de leer</h2>
+    <div class="mal-ejemplo">
+        <p>
+            Este div tiene bgdesert.jpg de fondo. ¡El texto es casi ilegible!
+            Mala combinación de imagen y texto.
+        </p>
+    </div>
+
+    <!-- Buen ejemplo: elementos específicos -->
+    <h2>Ejemplos BUENOS</h2>
+    
+    <!-- Solo párrafos con imagen de fondo -->
+    <p class="bg-paper">
+        Solo este párrafo tiene background-image paper.gif.
+        El texto sigue legible porque la imagen es sutil.
+    </p>
+    
+    <p class="bg-dots">
+        Otro párrafo con imagen de puntos (dots.png).
+    </p>
+
+    <!-- Lista con background en elementos -->
+    <ul>
+        <li>background-image: url("paper.gif");</li>
+        <li>Por defecto: repeat (se repite)</li>
+        <li>Usa imágenes que NO molesten al texto</li>
+    </ul>
+
+</body>
+</html>

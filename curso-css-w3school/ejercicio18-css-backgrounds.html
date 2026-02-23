@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 18 - CSS Backgrounds</title>
+    <link rel="stylesheet" href="ejercicio18-css-backgrounds.css">
+</head>
+<body>
+
+    <h1>CSS Backgrounds</h1>
+
+    <!-- body background -->
+    <p>El body tiene background-color lightblue.</p>
+
+    <!-- Diferentes elementos -->
+    <h2 class="bg-green">h1/h2 con background green</h2>
+    
+    <div class="bg-lightblue">
+        Este div tiene background lightblue.
+    </div>
+    
+    <p class="bg-yellow">
+        Este párrafo tiene background yellow.
+    </p>
+
+    <!-- Opacity (afecta hijos también) -->
+    <h2>Opacity (transparencia completa del elemento)</h2>
+    <div class="opacity-1">
+        <p>Opacity 1 (100% opaco)</p>
+        <span>Texto hijo también opaco</span>
+    </div>
+    <div class="opacity-06">
+        <p>Opacity 0.6</p>
+        <span>Texto hijo también transparente</span>
+    </div>
+    <div class="opacity-03">
+        <p>Opacity 0.3</p>
+        <span>Texto hijo muy transparente (difícil de leer)</span>
+    </div>
+    <div class="opacity-01">
+        <p>Opacity 0.1 (casi invisible)</p>
+        <span>Texto casi no visible</span>
+    </div>
+
+    <!-- RGBA (solo fondo transparente, texto legible) -->
+    <h2>RGBA (solo fondo transparente)</h2>
+    <div class="rgba-1">
+        <p>RGBA(0, 128, 0, 1) - 100% opaco</p>
+        <span>Texto perfectamente legible</span>
+    </div>
+    <div class="rgba-06">
+        <p>RGBA(0, 128, 0, 0.6)</p>
+        <span>Texto legible, solo fondo transparente</span>
+    </div>
+    <div class="rgba-03">
+        <p>RGBA(0, 128, 0, 0.3)</p>
+        <span>Texto legible</span>
+    </div>
+    <div class="rgba-01">
+        <p>RGBA(0, 128, 0, 0.1)</p>
+        <span>Texto legible</span>
+    </div>
+
+    <!-- Tabla resumen -->
+    <table>
+        <tr>
+            <th>Propiedad</th>
+            <th>Ventaja</th>
+            <th>Desventaja</th>
+        </tr>
+        <tr>
+            <td>opacity</td>
+            <td>Fácil</td>
+            <td>Afecta hijos (texto se vuelve transparente)</td>
+        </tr>
+        <tr>
+            <td>RGBA</td>
+            <td>Solo fondo transparente</td>
+            <td>Más código</td>
+        </tr>
+    </table>
+
+</body>
+</html>
