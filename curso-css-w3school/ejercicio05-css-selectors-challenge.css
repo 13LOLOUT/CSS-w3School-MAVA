@@ -1,0 +1,24 @@
+
+p {
+    color: dimgray;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#intro {
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+ul {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
