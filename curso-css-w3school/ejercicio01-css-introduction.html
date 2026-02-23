@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 01 - CSS Introduction</title>
+
+
+    <!-- Hoja de estilo por defecto -->
+    <link id="estilo-activo" rel="stylesheet" href="ejercicio01-css-introduction.css">
+</head>
+<body>
+
+    <h1>Probando introducción a CSS</h1>
+
+    <p>
+        CSS es el lenguaje que se usa para darle estilo a una página web:
+        colores, fuentes, tamaños, márgenes, etc.
+    </p>
+
+    <p>
+        La ventaja es que, con un solo archivo CSS, puedo cambiar el look
+        de varias páginas al mismo tiempo.
+    </p>
+
+    <h2>CSS Demo - Una página HTML con varios estilos</h2>
+
+    <p>
+        Da clic en los enlaces de abajo para cargar diferentes hojas de estilo
+        sobre la misma página. El HTML no cambia, solo cambia el CSS.
+    </p>
+
+    <nav>
+        <!-- Estos links no navegan, solo llaman a la función JS para cambiar de CSS -->
+        <a href="#" onclick="cambiarEstilo('ejercicio01-css-introduction.css'); return false;">Stylesheet 1</a> |
+        <a href="#" onclick="cambiarEstilo('ejercicio01-css-introduction-alt1.css'); return false;">Stylesheet 2</a> |
+        <a href="#" onclick="cambiarEstilo('ejercicio01-css-introduction-alt2.css'); return false;">Stylesheet 3</a> |
+        <a href="#" onclick="cambiarEstilo('ejercicio01-css-introduction-alt3.css'); return false;">Stylesheet 4</a>
+    </nav>
+
+    <section>
+        <h3>Texto de prueba para ver los estilos</h3>
+        <p>
+            Este es un párrafo de ejemplo para ver cómo cambian el fondo,
+            los colores y las fuentes cuando cambio de hoja de estilos.
+        </p>
+        <p>
+            La idea de CSS es que no tengo que modificar este HTML, solo
+            edito el archivo .css para cambiar el diseño.
+        </p>
+    </section>
+
+    <script>
+        // Función simple para cambiar el archivo CSS activo
+        function cambiarEstilo(nombreArchivo) {
+            var linkEstilo = document.getElementById("estilo-activo");
+            linkEstilo.setAttribute("href", nombreArchivo);
+        }
+    </script>
+
+</body>
+</html>
