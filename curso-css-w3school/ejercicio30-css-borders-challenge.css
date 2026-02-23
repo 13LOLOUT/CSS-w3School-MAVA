@@ -1,0 +1,25 @@
+
+p.solid {
+    border-style: solid;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.thick {
+    border: 3px solid red;
+}
+
+p.rounded {
+    border-style: solid;
+    border-radius: 5px;
+}
+
+/* Base para que se vean los bordes */
+p {
+    border-width: 3px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
